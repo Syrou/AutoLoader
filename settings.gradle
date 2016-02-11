@@ -1,0 +1,1 @@
+include ':app', ':blemodule', ':wifimodule', ':coremodule'

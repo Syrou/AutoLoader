@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AutoLoader</string>
+    <string name="title_activity_login">List of devices</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Device identifier</string>
+    <string name="action_sign_in">Find device</string>
+    <string name="action_sign_in_short">Find device</string>
+    <string name="error_invalid_email">Device identifie is invalid</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
