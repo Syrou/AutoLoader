@@ -15,7 +15,7 @@ import eu.syrou.coremodule.DeviceManager;
  */
 @Aspect
 public class InjectMe {
-    @After("execution(* eu.syrou.autoloader.LoginActivity.onCreate(..))")
+    @ ("execution(* eu.syrou.autoloader.LoginActivity.onCreate(..))")
     public void postOnCreate(JoinPoint thisJoinPoint) {
         DeviceManager.getInstance().addDevice(new WIFIDevice("Injected Wifi", 1, "Injected Wifi Device", "A WIFI device that was injected"));
     }

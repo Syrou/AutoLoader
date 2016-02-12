@@ -4,7 +4,6 @@ apply plugin: 'maven'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
-    compileOptions.incremental = false
 
     defaultConfig {
         minSdkVersion 18
@@ -22,7 +21,6 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_6
         targetCompatibility JavaVersion.VERSION_1_6
-        incremental false
     }
 }
 
